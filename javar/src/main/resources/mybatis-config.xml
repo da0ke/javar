@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<properties resource="db.properties"></properties>
+	<settings>  
+        <setting name="logImpl" value="SLF4J"/>  
+    </settings> 
+	<plugins>
+		<plugin interceptor="com.github.pagehelper.PageInterceptor">
+		</plugin>
+	</plugins>
+	  <environments default="jinxiu">
+	    <environment id="jinxiu">
+	      <transactionManager type="JDBC"/>
+	      <dataSource type="POOLED">
+	        <property name="driver" value="${s_driver}"/>
+	        <property name="url" value="${s_url}"/>
+	        <property name="username" value="${s_username}"/>
+	        <property name="password" value="${s_password}"/>
+	      </dataSource>
+	    </environment>
+	  </environments>
+	  
+	  <mappers>
+	  	<mapper resource="cn/javar/mybatis/mapper/InfoMapper.xml"/>
+	  </mappers>
+  
+</configuration>
