@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<one value="吴江区">
+        <two value="不限"></two>
+        <two value="盛泽"></two>
+        <two value="桃源"></two>
+        <two value="平望"></two>
+        <two value="震泽"></two>
+        <two value="汾湖"></two>
+        <two value="横扇"></two>
+        <two value="松陵"></two>
+        <two value="同里"></two>
+        <two value="七都"></two>
+        <two value="其它"></two>
+	</one>
+	<one value="苏州">
+        <two value="不限"></two>
+        <two value="常熟"></two>
+        <two value="昆山"></two>
+        <two value="张家港"></two>
+        <two value="太仓"></two>
+        <two value="园区"></two>
+        <two value="新区"></two>
+        <two value="吴中"></two>
+        <two value="相城"></two>
+        <two value="平江"></two>	
+	</one>
+	<one value="绍兴">
+        <two value="不限"></two>
+        <two value="柯桥"></two>
+        <two value="华舍"></two>
+        <two value="柯岩"></two>
+        <two value="钱清"></two>
+        <two value="杨汛桥"></two>
+        <two value="安昌"></two>
+        <two value="齐贤"></two>
+        <two value="绍兴县"></two>
+        <two value="袍江"></two>
+        <two value="越城"></two>
+        <two value="新昌"></two>
+        <two value="诸暨"></two>
+        <two value="上虞"></two>
+        <two value="嵊州"></two>	
+	</one>
+	<one value="无锡">
+        <two value="不限"></two>
+        <two value="江阴"></two>
+        <two value="崇安"></two>
+        <two value="南长"></two>
+        <two value="北塘"></two>
+        <two value="锡山"></two>
+        <two value="惠山"></two>
+        <two value="滨湖"></two>
+        <two value="新区"></two>
+        <two value="宜兴"></two>	
+	</one>
+	<one value="南通">
+        <two value="不限"></two>
+        <two value="崇川"></two>
+        <two value="海门"></two>
+        <two value="如皋"></two>
+        <two value="通州"></two>
+        <two value="港闸"></two>
+        <two value="启动"></two>
+        <two value="海安"></two>
+        <two value="如东"></two>	
+	</one>
+	<one value="常州">
+        <two value="不限"></two>
+        <two value="天宁"></two>
+        <two value="武进"></two>
+        <two value="钟楼"></two>
+        <two value="戚墅堰"></two>
+        <two value="新北"></two>
+        <two value="金坛"></two>
+        <two value="溧阳"></two>	
+	</one>
+	<one value="嘉兴">
+        <two value="不限"></two>
+        <two value="王江泾"></two>
+        <two value="秀洲"></two>
+        <two value="南湖经济开发区"></two>
+        <two value="平湖"></two>
+        <two value="海宁"></two>
+        <two value="桐乡"></two>
+        <two value="嘉善县"></two>
+        <two value="嘉兴市区"></two>	
+	</one>
+	<one value="杭州">
+        <two value="不限"></two>
+        <two value="萧山"></two>
+        <two value="西湖"></two>
+        <two value="拱墅"></two>
+        <two value="江干"></two>
+        <two value="下城"></two>
+        <two value="上城"></two>
+        <two value="余杭"></two>
+        <two value="滨江"></two>
+        <two value="建德"></two>
+        <two value="富阳"></two>
+        <two value="临安"></two>
+        <two value="桐庐"></two>
+        <two value="淳安"></two>	
+	</one>
+	<one value="湖州">
+        <two value="不限"></two>
+        <two value="吴兴"></two>
+        <two value="南浔"></two>
+        <two value="长兴"></two>
+        <two value="德清"></two>
+        <two value="安吉"></two>	
+	</one>
+	<one value="宁波">
+        <two value="不限"></two>
+        <two value="海曙"></two>
+        <two value="江东"></two>
+        <two value="江北"></two>
+        <two value="鄞州"></two>
+        <two value="北仑"></two>
+        <two value="镇海"></two>	
+	</one>
+	<one value="上海">
+        <two value="不限"></two>
+        <two value="黄浦"></two>
+        <two value="卢湾"></two>
+        <two value="静安"></two>
+        <two value="徐汇"></two>
+        <two value="浦东"></two>
+        <two value="长宁"></two>
+        <two value="虹口"></two>
+        <two value="杨浦"></two>
+        <two value="普陀"></two>
+        <two value="闸北"></two>
+        <two value="闵行"></two>
+        <two value="宝山"></two>
+        <two value="嘉定"></two>
+        <two value="青浦"></two>
+        <two value="奉贤"></two>
+        <two value="南汇"></two>
+        <two value="宗明"></two>
+        <two value="金山"></two>
+        <two value="松江"></two>	
+	</one>
+</root>

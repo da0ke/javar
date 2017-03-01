@@ -1,6 +1,6 @@
-package cn.javar.area;
+package cn.javar.select;
 
-public class Area_M {
+public class Opt_M {
 	private int id;
 	private String name;
 	private int typeId;
