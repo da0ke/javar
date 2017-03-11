@@ -11,13 +11,8 @@ public class MyTool {
      * 验证手机号码格式
      */
     public static boolean isMatchesMobile(String mobile){
-    	if(mobile!=null && mobile.length()==11) {
-    		String rule = "^(((13[0-9])|(15([0-3]|[5-9]))|(18[0,5-9]))\\d{8})|(0\\d{2}-\\d{8})|(0\\d{3}-\\d{7})$";
-    		if(mobile.matches(rule)) {
-        		return true;
-        	}
-    	}
-    	return false;
+    	String rule = "^1[34578][0-9]{9}$";
+    	return mobile.matches(rule);
     }
     
     /**
@@ -25,11 +20,7 @@ public class MyTool {
      */
     public static boolean isMatchesEmail(String email){
     	String rule = "\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*";
-    	if(email.matches(rule)) {
-    		return true;
-    	} else {
-    		return false;
-    	}
+    	return email.matches(rule);
     }
     
     /**
@@ -37,11 +28,7 @@ public class MyTool {
      */
     public static boolean isMatchesPassword(String password) {
         String rule = "^[a-zA-Z0-9_][a-zA-Z0-9_]{5,17}$";//由字母、数字、下划线组成，6-18位
-        if(password.matches(rule)) {
-            return true;
-        } else {
-            return false;
-        }
+        return password.matches(rule);
     }
 	
 	/**
