@@ -5,6 +5,14 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Calendar;
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * 
+ * @author Administrator
+ * 
+ * 
+ * V1.0.0
+ *
+ */
 public class MyTool {
 	
 	/**
