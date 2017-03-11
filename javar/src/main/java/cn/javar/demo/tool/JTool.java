@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
  * V1.0.0
  *
  */
-public class MyTool {
+public class JTool {
 	
 	/**
      * 验证手机号码格式
