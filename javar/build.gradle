@@ -8,6 +8,8 @@
 
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -23,7 +25,12 @@ dependencies {
     compile 'net.sourceforge.jtds:jtds:1.3.1'
     compile 'com.github.pagehelper:pagehelper:5.0.0'
     compile 'dom4j:dom4j:1.6.1'
+    compile 'org.apache.struts:struts2-core:2.5.10'
+    compile 'com.alibaba:fastjson:1.2.24'
 
+	providedCompile 'javax.servlet:servlet-api:2.5' // 编译期
+    providedRuntime 'javax.servlet:jstl:1.2'    // 运行时
+    
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
 }
