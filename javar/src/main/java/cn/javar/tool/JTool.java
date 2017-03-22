@@ -1,4 +1,4 @@
-package cn.javar.demo.tool;
+package cn.javar.tool;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
