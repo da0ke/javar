@@ -10,7 +10,9 @@ import javax.servlet.http.HttpServletRequest;
  * @author Administrator
  * 
  * 
- * V1.0.0
+ * V1.0.1
+ * 
+ * 增加public static boolean isMatchesTel(String tel)
  *
  */
 public class JTool {
@@ -21,6 +23,14 @@ public class JTool {
     public static boolean isMatchesMobile(String mobile){
     	String rule = "^1[34578][0-9]{9}$";
     	return mobile.matches(rule);
+    }
+    
+    /**
+     * 验证固定电话格式
+     */
+    public static boolean isMatchesTel(String tel) {
+    	String rule = "^[0-9-+]{6,}$";
+    	return tel.matches(rule);
     }
     
     /**
